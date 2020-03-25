@@ -8,3 +8,7 @@ The repository will host data collected from different resources inculding Feder
 the spread of Novel Corona virus COVID-19 pandemic.
 
 
+# License
+Works by me in this repository are CC0.
+
+This repository also contains a few assets that are not my own works and are stored here for data archival purposes only.So please  do not use any of the resources listed above in a way that would violate the copyright of their creators.
