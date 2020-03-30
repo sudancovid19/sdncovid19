@@ -1,6 +1,6 @@
 # FMOH Compiled  Reports CSV Format - COVID19-  Sudan
 
-* Data guidelines of WHO will be followed when compiling all the reports .
+Data guidelines of WHO will be followed when compiling all the reports .
 The following data will be compiled and aassesed from FMOH reports as follows:
 
 - case finding activities, nature and extent of enhanced surveillance activities;
