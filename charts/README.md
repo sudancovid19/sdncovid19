@@ -3,7 +3,7 @@
 
 # GUIDELINES:
 
-![alt text](https://github.com/sudancovid19/sdncovid19/blob/master/charts/image.png)
+
 
 ISO CODES ARE AVAILBLE ON THIS LINK
 
