@@ -3,15 +3,15 @@
 * Data guidelines of WHO will be followed when compiling all the reports .
 The following data will be compiled and aassesed from FMOH reports as follows:
 
-o case finding activities, nature and extent of enhanced surveillance activities;
-o case definition used for case finding and classification, and algorithm for screening;
-o timeline of suspect, probable, and confirmed cases with dates of illness onset within
+- case finding activities, nature and extent of enhanced surveillance activities;
+- case definition used for case finding and classification, and algorithm for screening;
+- timeline of suspect, probable, and confirmed cases with dates of illness onset within
 clusters and dates of exposures;
-o best estimates for case fatality ratio and incubation period;
-o testing criteria for cases;
-o results of investigation for related animal outbreaks if any;
-o evidence for human-to-human transmission;
-o geographic extent of investigation and estimation of spread of virus.
+- best estimates for case fatality ratio and incubation period;
+- testing criteria for cases;
+- results of investigation for related animal outbreaks if any;
+- evidence for human-to-human transmission;
+- geographic extent of investigation and estimation of spread of virus.
 
 
 
