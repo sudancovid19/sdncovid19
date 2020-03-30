@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <script type="text/javascript" src="loader.js"></script>
+    <script src="jsapi"></script>
+
+    <script type="text/javascript">
+      google.charts.load('current', {
+        'packages':['geochart'],
+        // Note: you will need to get a mapsApiKey for your project.
+        // See: https://developers.google.com/chart/interactive/docs/basic_load_libs#load-settings
+        //'mapsApiKey': 'AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY'
+      });
+      google.charts.setOnLoadCallback(drawRegionsMap);
+
+      function drawRegionsMap() {
+        var data = google.visualization.arrayToDataTable([
+          ['Provinces', 'Population'],
+          ['SD-RS', 1482053],
+          ['SD-GZ', 5096920],
+          ['SD-KH', 7993235],
+          ['SD-GD', 2208385],
+          ['SD-NR', 1511442],
+          ['SD-NW', 2493880],
+          ['SD-NB', 1107623],
+          ['SD-NO', 936255],
+          ['SD-DW', 1775945],
+          ['SD-GK', 1178537],
+          ['SD-DS', 5353025],
+          ['SD-KS', 2107623],
+          ['SD-KA', 2519071],
+          ['SD-DN', 2304950],
+          ['SD-KN', 3174029],
+          ['SD-DE', 119451],
+          ['SD-SI', 1918692],
+          ['SD-DC', 2499000]
+
+        ]);
+
+        var options = {
+          title:'Sudan Population by State - 2020 Source Worldmeters',
+          backgroundColor: '#eaf9ff',
+          region:'SD',
+          resolution: 'provinces',
+          axes: {title: "Sudan Population by State - 2020 Source Worldmeters"},
+          colorAxis: {minValue: 500000, maxValue:10000000,  colors: ['#4A9928','#204DA8','#992F1A','#2292C9']}
+        };
+
+
+        var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
+
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <center><p>Sudan Population by State - 2020 Source Worldmeters</p>
+    <div id="regions_div" style="width: 900px; height: 500px;"><center></div><br>
+      <div id="regions_div" style="width: 900px; height: 500px;"><center></div>
+</center>
+  </body>
+</html>
