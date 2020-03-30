@@ -9,11 +9,12 @@ https://github.com/sudancovid19/sdncovid19/blob/master/charts/Sudan_States_list_
 
 # PLANNED VISUALIZATION
 
-1. Sudan Population By state -- Google Webscrapping / Octaperse -- worldmeters --- Geochart 
+1. Sudan Population By state -- Google Webscrapping / Octaperse --- worldmeters --- Geochart 
 2. Sudan Population By Cities -- Google web scrapping / Octaperse  --- GeoChart or Column Charrt
-3. Sudan Number of Hospitals By State -- Google webscrapping -- GeoChart or Column Chart
+3. Sudan Number of Hospitals By State -- Google webscrapping --- GeoChart or Column Chart
 4. Sudan Number of Pharamacies By State -- google Webscraping ---  GeoChart or Column Chart
-5. Sudan COVID-19 Cases -- Automatic Update -- Confirmed , Dead , Recovered -- GeoChart, Column Chart
+5. Sudan Number of Clinics By State -- Google webscrapping / Octaperse ---  GeoChart or Column Chart
+5. Sudan COVID-19 Cases -- Automatic Update -- Confirmed , Dead , Recovered --- GeoChart, Column Chart
 6. 
 
 # DATA SOURCES
