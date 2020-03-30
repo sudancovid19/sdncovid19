@@ -5,6 +5,7 @@
 # GUIDELINES:
 ISO CODES ARE AVAILBLE ON THIS LINK
 
+https://github.com/sudancovid19/sdncovid19/blob/master/charts/Sudan_States_list_initals.txt
 
 # PLANNED VISUALIZATION
 
@@ -16,6 +17,8 @@ ISO CODES ARE AVAILBLE ON THIS LINK
 6. 
 
 # DATA SOURCES
-
+1. Johns Hopkins 
+2. World Meters
+3. FMOH Federal Ministery of Health in Sudan
 
 # REFRENCES
