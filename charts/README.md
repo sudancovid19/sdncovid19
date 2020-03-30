@@ -1,8 +1,10 @@
 # Google Charts files developed for Managing the Pandemic Outbreak in Sudan 
 
-![alt text](https://github.com/sudancovid19/sdncovid19/blob/master/charts/image.png)
 
 # GUIDELINES:
+
+![alt text](https://github.com/sudancovid19/sdncovid19/blob/master/charts/image.png)
+
 ISO CODES ARE AVAILBLE ON THIS LINK
 
 https://github.com/sudancovid19/sdncovid19/blob/master/charts/Sudan_States_list_initals.txt
