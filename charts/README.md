@@ -14,8 +14,17 @@ https://github.com/sudancovid19/sdncovid19/blob/master/charts/Sudan_States_list_
 3. Sudan Number of Hospitals By State -- Google webscrapping --- GeoChart or Column Chart
 4. Sudan Number of Pharamacies By State -- google Webscraping ---  GeoChart or Column Chart
 5. Sudan Number of Clinics By State -- Google webscrapping / Octaperse ---  GeoChart or Column Chart
-5. Sudan COVID-19 Cases -- Automatic Update -- Confirmed , Dead , Recovered --- GeoChart, Column Chart
-6. 
+5. Sudan COVID-19 Cases -- Automatic Update csv file -- Confirmed , Dead , Recovered --- GeoChart, Column Chart
+6. Sudan Number of ISCOLATION and QUARANTINE centers By State or Cities --   -- Column Chart 
+7. Sudan Number of Suspected Cases -- Automated csv file  -- Column Chart 
+8. 
+
+
+# PLANNED ACTIVITIES
+Track FMOH Activities
+
+1. Create Risk Communication and Community Engagement Project to trrack FMOH progress -- GITHUB PROJECTS
+2. 
 
 # DATA SOURCES
 1. Johns Hopkins 
