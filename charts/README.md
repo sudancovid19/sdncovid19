@@ -5,22 +5,22 @@
 # GUIDELINES:
 - SUDAN STATES ISO STANDARDS
 
- SD-RS\ 
- SD-GZ\ 
- SD-KH\ 
- SD-GD\ 
- SD-NR\ 
- SD-NW\ 
- SD-NB\  
- SD-NO\ 
- SD-DW\ 
- SD-GK\ 
- SD-DS\ 
- SD-KS\ 
- SD-KA\ 
- SD-DN\ 
- SD-KN\ 
- SD-DE\ 
- SD-SI\ 
- SD-DC\  
+SD-RS\ 
+SD-GZ\ 
+SD-KH\ 
+SD-GD\ 
+SD-NR\ 
+SD-NW\ 
+SD-NB\  
+SD-NO\ 
+SD-DW\ 
+SD-GK\ 
+SD-DS\ 
+SD-KS\ 
+SD-KA\ 
+SD-DN\ 
+SD-KN\ 
+SD-DE\ 
+SD-SI\ 
+SD-DC\  
 
