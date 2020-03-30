@@ -27,7 +27,7 @@ https://github.com/sudancovid19/sdncovid19/blob/master/charts/Sudan_States_list_
 Track FMOH Activities and progress using the reports published at the website.https://www.fmoh.gov.sd/
 
 1. Create Risk Communication and Community Engagement Project to trrack FMOH progress -- GITHUB PROJECTS
-2. Coronavirus Detection  FMOH Team
+2. Coronavirus Detection Team at FMOH
 3. Logisitics Team  FMOH 
 
 
