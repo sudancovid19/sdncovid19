@@ -22,3 +22,4 @@ illness in a two-week period and in the same geographical area and/or are epidem
 
 # References:
 https://www.who.int/csr/disease/swineflu/global_pandemic_influenza_surveilance_apr09.pdf
+https://www.ncbi.nlm.nih.gov/books/NBK525302/
