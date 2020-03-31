@@ -29,6 +29,9 @@ Track FMOH Activities and progress using the reports published at the website.ht
 1. Create Risk Communication and Community Engagement Project to trrack FMOH progress -- GITHUB PROJECTS
 2. Coronavirus Detection Team at FMOH
 3. Logisitics Team  FMOH 
+4. Automation Scripts 
+5. Data Forecasting - i.e Prophet  , Python 
+
 
 
 # DATA SOURCES
