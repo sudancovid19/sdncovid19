@@ -15,6 +15,7 @@ This section will be used to collect Sudan health system data from different sou
 9. Number of Nurses By State
 10. Number of Public Health Officers By State
 11. Number of Hospitals with Health Information System
+12. Number of Hospitals with Internet Access
 
 
 
