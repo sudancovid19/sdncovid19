@@ -2,7 +2,7 @@
 
 
 # GUIDELINES:
-![alt text](https://github.com/sudancovid19/sdncovid19/blob/master/charts/screen_shots/SUDAN_POPULATION_BY_STATE_2020.PNG)
+![alt text](https://github.com/sudancovid19/sdncovid19/blob/master/SDN-Dashboards/screen_shots/SUDAN_POPULATION_BY_STATE_2020.PNG)
 
 
 ISO CODES ARE AVAILBLE ON THIS LINK
