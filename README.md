@@ -1,7 +1,7 @@
 # Sudanese Initiative to Fight COVID-19 "Coronavirus" 
 
 ## Sudanese Initiative to Fight COVID-19 in Sudan.
-![alt text](https://github.com/sudancovid19/sdncovid19/blob/master/charts/image.png)
+![alt text](https://github.com/sudancovid19/sdncovid19/blob/master/charts/screen_shots/sdn_data_workflow.png)
 
 All Sudan COVID 19 data related 
 
