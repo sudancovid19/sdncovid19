@@ -21,7 +21,7 @@
             return;
         }
         var data = response.getDataTable();
-        var chart = new google.visualization.LineChart(document.getElementById('csv'));
+        var chart = new google.visualization.ColumnChart(document.getElementById('csv'));
         chart.draw(data, { legend: { position: 'none'} });
     }
 
