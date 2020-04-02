@@ -2,24 +2,22 @@
   <head>
      <script type='text/javascript' src='http://www.google.com/jsapi'></script>
     <script type='text/javascript'>
-      google.load('visualization', '1', {'packages':
-['annotatedtimeline']});
+      google.load('visualization', '1', {'packages':['annotatedtimeline']});
       google.setOnLoadCallback(drawChart);
       function drawChart() {
 
                 //leadsytd.csv
-        var data = new google.visualization.Query('csv?url=https://raw.githubusercontent.com/sudancovid19/sudancovid19.github.io/master/SDN-Dashboards/html/data.csv.csv');
+        var data = new google.visualization.Query('csv?url=https://raw.githubusercontent.com/sudancovid19/sudancovid19.github.io/master/SDN-Dashboards/html/data.csv');
         data.addColumn('date', 'Date');
         data.addColumn('string', 'Source Group');
-        data.addColumn('String', 'LeadSource');
-        data.addColumn('string', 'text1');
-        data.addColumn('number', 'TotalforSource');
-        data.addColumn('string', 'title2');
-        data.addColumn('string', 'text2');
+        //data.addColumn('String', 'LeadSource');
+        //data.addColumn('string', 'text1');
+        //data.addColumn('number', 'TotalforSource');
+        //data.addColumn('string', 'title2');
+        //data.addColumn('string', 'text2');
 
 
-        var chart = new
-google.visualization.AnnotatedTimeLine(document.getElementById('chart_div'));
+        var chart = new google.visualization.AnnotatedTimeLine(document.getElementById('chart_div'));
         chart.draw(data, {displayAnnotations: true});
       }
     </script>
