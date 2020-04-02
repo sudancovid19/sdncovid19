@@ -1,1 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="HandheldFriendly" content="True">
+ <meta name="MobileOptimized" content="320">
+
+ <title>Google Graph and CSV</title>
+ <meta name="description" content="test">
+    <script type="text/javascript" src="loader.js"></script>
+ <script src="jquery.min.js"></script>
+ <script src="jquery.csv.min.js"></script>
+ <script type="text/javascript" src="jsapi.js"></script>
+
+<script type="text/javascript"> // load the visualisation API
+  google.load('visualization', '1', { packages: ['corechart', 'bar', 'controls'] });
+</script>
+
+
+
+
+<script type="text/javascript">
+function drawVisualization() {
+   $.get("https://raw.githubusercontent.com/sudancovid19/sdncovid19/master/SDN-Dashboards/data/jhu_compiled_sdn_report/04-02-2020_sudan_no_of_cases_jhu.csv", function(csvString) {   // this is where you load or call your csv data file
+      // transform the CSV string into a 2-dimensional array
+      var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar});
+
+      // this new DataTable object holds all the data
+      var data = new google.visualization.arrayToDataTable(arrayData);
+      // CAPACITY - En-route ATFM delay - YY - CHART
+      var crt_ertdlyYY = new google.visualization.ChartWrapper({
+         chartType: 'CurveChart',
+         containerId: 'crt_ertdlyYY',
+         dataTable: data,
+
+         // This is where you add your options
+         options:{
+            width: 900, height:480,
+            title: 'Number of cases in Hospital Isolation accross Sudan',
+            titleTextStyle : {color: 'grey', fontSize: 18, bold:true },
+            focusTarget: 'category',
+            isStacked: true,
+            legend: { position: 'top', maxLines: 3 },
+            bar: { groupWidth: '25%' },
+            hAxis: {
+              title: 'Day',
+              textStyle: {
+              fontSize: 14,
+              color: '#053061',
+              bold: true,
+              italic: false
+              },
+              titleTextStyle: {
+                fontSize: 16,
+                color: '#053061',
+                bold: true,
+                italic: false
+              }
+              },
+            vAxis: {
+              title: 'Number of cases',
+              textStyle: {
+              fontSize: 14,
+              color: '#360e1a',
+              bold: false,
+              italic: false
+              },
+              titleTextStyle: {
+              fontSize: 16,
+              color: '#360e1a',
+              bold: true,
+              italic: false
+              }
+              }
+        }
+      });
+      crt_ertdlyYY.draw();
+   });
+}
+google.setOnLoadCallback(drawVisualization)
+</script>
+</head>
+
+<body>
+
+<div id="crt_ertdlyYY"></div>
+
+</body>
+</html>
 
