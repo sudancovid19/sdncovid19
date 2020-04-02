@@ -30,14 +30,14 @@ function drawVisualization() {
       var data = new google.visualization.arrayToDataTable(arrayData);
       // CAPACITY - En-route ATFM delay - YY - CHART
       var crt_ertdlyYY = new google.visualization.ChartWrapper({
-         chartType: 'lineChart',
+         chartType: 'ColumnChart',
          containerId: 'crt_ertdlyYY',
          dataTable: data,
 
          // This is where you add your options
          options:{
             width: 900, height:480,
-            title: 'Number of cases in Hospital Isolation accross Sudan',
+            title: 'Number of Cases in Sudan Today',
             titleTextStyle : {color: 'grey', fontSize: 18, bold:true },
             focusTarget: 'category',
             isStacked: true,
