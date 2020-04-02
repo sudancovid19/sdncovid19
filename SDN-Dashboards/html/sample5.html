@@ -8,13 +8,14 @@
     <script type="text/javascript">
 
 
-<script type="text/javascript">
+<script>
+
     google.load('visualization', '1.0', {'packages':['corechart']});
     google.setOnLoadCallback(BasicLine);
 
     function BasicLine() {
         $.get("example.csv", function(csvString) {
-            var arrayData = $.csv.toArrays(csvString,{onParseValue: $.csv.hooks.castToScalar}),
+            var arrayData = $.csv.toArrays(csvString, {onParseValue: $.csv.hooks.castToScalar}),
                 data      = new google.visualization.arrayToDataTable(arrayData),
                 options   = {
                               hAxis: {
@@ -25,8 +26,7 @@
                               },
                               backgroundColor: '#f1f8e9'
                             },
-                chart     = new google.visualization
-                              .LineChart(document.getElementById('chart_div'));
+                chart = new google.visualization.LineChart(document.getElementById('chart_div'));
             chart.draw(data, options);
         },
         'text');
