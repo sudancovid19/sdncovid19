@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="jquery.csv-0.71.js"></script>
+    <script type="text/javascript">
+
+
+<script type="text/javascript">
+    google.load('visualization', '1.0', {'packages':['corechart']});
+    google.setOnLoadCallback(BasicLine);
+
+    function BasicLine() {
+        $.get("example.csv", function(csvString) {
+            var arrayData = $.csv.toArrays(csvString, 
+                                          {onParseValue: $.csv.hooks.castToScalar}),
+                data      = new google.visualization.arrayToDataTable(arrayData),
+                options   = {
+                              hAxis: {
+                                title: 'Time'
+                              },
+                              vAxis: {
+                                title: 'Temperature'
+                              },
+                              backgroundColor: '#f1f8e9'
+                            },
+                chart     = new google.visualization
+                              .LineChart(document.getElementById('chart_div'));
+            chart.draw(data, options);
+        },
+        'text');
+    }
+</script>
+
+</head>
+
+<body>
+    <!--Div that will hold the pie chart-->
+    <div id="chart_div"></div>
+</body>
+
+</html>
