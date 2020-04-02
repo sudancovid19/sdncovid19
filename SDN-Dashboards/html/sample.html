@@ -10,7 +10,7 @@
         //          { csvColumns: ['string', 'number'], csvHasHeader: true });
         var opt = { sendMethod: 'xhr' }; //{ csvColumns: ['string', 'number'], csvHasHeader: true, sendMethod: auto });
         //var query = new google.visualization.Query('http://local:6572/data.csv', opt);
-        var query = new google.visualization.Query('data.csv');
+        var query = new google.visualization.Query('https://raw.githubusercontent.com/sudancovid19/sudancovid19.github.io/master/SDN-Dashboards/html/data.csv');
         query.setQuery('select *');
         query.send(handleQueryResponse);
     }
