@@ -1,5 +1,6 @@
 <html>
 <head>
+	      <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
 <script type="text/javascript">
     google.load("visualization", "1", { packages: ["corechart"] });
@@ -13,18 +14,20 @@
         query.setQuery('select *');
         query.send(handleQueryResponse);
     }
-
     function handleQueryResponse(response) {
         if (response.isError()) {
             alert('Error in query: ' + response.getMessage() + ' ' +
                     response.getDetailedMessage());
             return;
         }
-
         var data = response.getDataTable();
-        var chart = new google.visualization.ColumnChart(document.getElementById('csv'));
+        var chart = new google.visualization.LineChart(document.getElementById('csv'));
         chart.draw(data, { legend: { position: 'none'} });
     }
+
+
+
+
 </script>
 </head>
 <body>
