@@ -30,7 +30,7 @@ function drawVisualization() {
       var data = new google.visualization.arrayToDataTable(arrayData);
       // CAPACITY - En-route ATFM delay - YY - CHART
       var crt_ertdlyYY = new google.visualization.ChartWrapper({
-         chartType: 'CurveChart',
+         chartType: 'lineChart',
          containerId: 'crt_ertdlyYY',
          dataTable: data,
 
