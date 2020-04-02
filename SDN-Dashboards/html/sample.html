@@ -1,0 +1,33 @@
+<html>
+<head>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">
+    google.load("visualization", "1", { packages: ["corechart"] });
+    google.setOnLoadCallback(drawChart);
+    function drawChart() {
+        //        var query = new google.visualization.Query('http://www.gstatic.com/external_hosted/gstatic/charts/static/data.csv',
+        //          { csvColumns: ['string', 'number'], csvHasHeader: true });
+        var opt = { sendMethod: 'xhr' }; //{ csvColumns: ['string', 'number'], csvHasHeader: true, sendMethod: auto });
+        //var query = new google.visualization.Query('http://local:6572/data.csv', opt);
+        var query = new google.visualization.Query('data.csv');
+        query.setQuery('select *');
+        query.send(handleQueryResponse);
+    }
+
+    function handleQueryResponse(response) {
+        if (response.isError()) {
+            alert('Error in query: ' + response.getMessage() + ' ' +
+                    response.getDetailedMessage());
+            return;
+        }
+
+        var data = response.getDataTable();
+        var chart = new google.visualization.ColumnChart(document.getElementById('csv'));
+        chart.draw(data, { legend: { position: 'none'} });
+    }
+</script>
+</head>
+<body>
+<div id="csv" style="width: 900px; height: 500px;"></div>
+</body>
+</html>
