@@ -14,8 +14,7 @@
 
     function BasicLine() {
         $.get("example.csv", function(csvString) {
-            var arrayData = $.csv.toArrays(csvString, 
-                                          {onParseValue: $.csv.hooks.castToScalar}),
+            var arrayData = $.csv.toArrays(csvString,{onParseValue: $.csv.hooks.castToScalar}),
                 data      = new google.visualization.arrayToDataTable(arrayData),
                 options   = {
                               hAxis: {
