@@ -21,6 +21,7 @@
 
 
 <script type="text/javascript">
+
 function drawVisualization() {
    $.get("https://raw.githubusercontent.com/sudancovid19/sdncovid19/master/SDN-Dashboards/data/jhu_compiled_sdn_report/04-02-2020_sudan_no_of_cases_jhu.csv", function(csvString) {   // this is where you load or call your csv data file
       // transform the CSV string into a 2-dimensional array
@@ -40,7 +41,7 @@ function drawVisualization() {
             title: 'Number of Cases in Sudan Today',
             titleTextStyle : {color: 'grey', fontSize: 18, bold:true },
             focusTarget: 'category',
-            isStacked: true,
+            isStacked: false,
             legend: { position: 'top', maxLines: 3 },
             bar: { groupWidth: '25%' },
             hAxis: {
@@ -79,13 +80,23 @@ function drawVisualization() {
    });
 }
 google.setOnLoadCallback(drawVisualization)
+
+
+
+
+
+
+
 </script>
 </head>
 
 <body>
+	<table class="columns">
+		<tr>
+			<td><div id="crt_ertdlyYY" style="border: 1px solid #ccc" ></div> </td>
 
-<div id="crt_ertdlyYY"></div>
-
+		</tr>
+	</table>
 </body>
 </html>
 
