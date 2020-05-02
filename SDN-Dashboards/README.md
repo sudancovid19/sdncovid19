@@ -34,9 +34,9 @@ Track FMOH Activities and progress using the reports published at the website.ht
 
 
 
-# DATA SOURCES
-1. Johns Hopkins 
-2. World Meters
+# DATA SOURCES / Ref.
+1. Johns Hopkins University 
+2. World Meters Website
 3. FMOH Federal Ministery of Health in Sudan
 4. ICONS are attributed to icons8 website and you must attribute to use and icons 8 if you interested in uinsg the above diagram..
 
