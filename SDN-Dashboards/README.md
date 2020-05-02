@@ -1,4 +1,4 @@
-# Google Charts files developed for Managing the Pandemic Outbreak in Sudan 
+# Visualizing The Pandemic Outbreak in Sudan 
 
 
 # GUIDELINES:
