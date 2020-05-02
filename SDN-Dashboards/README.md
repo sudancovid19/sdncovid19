@@ -20,7 +20,7 @@ https://github.com/sudancovid19/sdncovid19/blob/master/charts/Sudan_States_list_
 6. Sudan Number of ISCOLATION and QUARANTINE centers By State or Cities --   -- Column Chart 
 7. Sudan Number of Suspected Cases -- Automated csv file  -- Column Chart 
 8. Sudan Number of Arrivals By Country -- Automated csv file -- Column or Geo Chart 
-9.
+9. Sudan Number odf Cases By State -- Automated csv file -- column or Geo chart
 
 
 # PLANNED ACTIVITIES
